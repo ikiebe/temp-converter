@@ -1,0 +1,71 @@
+body {
+background-color: orangered;
+margin-left: auto;
+margin-right: auto;
+	
+}
+
+/*our heading*/
+h1 {
+text-align: center;
+border: 5px solid black;
+animation-name: title;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+}
+
+@keyframes title {
+0%{border-color: red; color: red;}
+50%{border-color: green; color: green;}
+75%{border-color: yellow; color: yellow;}
+100%{border-color: blue; color: blue;}
+	
+}
+
+/*our paragraph*/
+p {
+font-family: helvetica;
+font-size: 30px;
+color: yellow;
+text-align: center;
+	
+}
+
+/*our button*/
+button {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+	
+}
+
+/*our kelvin box*/
+#box {
+background-color: white;
+width: 120px;
+height: 60px;
+border: 2px solid black;
+font-family: helvetica;
+color: black;
+font-size: 18px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+	
+}
+
+/*our celsius box*/
+#boxc {
+background-color: white;
+width: 120px;
+height: 60px;
+border: 2px solid black;
+font-family: helvetica;
+color: black;
+font-size: 18px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
